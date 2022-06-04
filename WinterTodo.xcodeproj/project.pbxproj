@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22E9006C284B2E37000A82BE /* WinterTodoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E9006B284B2E37000A82BE /* WinterTodoApp.swift */; };
+		22E9006E284B2E37000A82BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E9006D284B2E37000A82BE /* ContentView.swift */; };
+		22E90070284B2E38000A82BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22E9006F284B2E38000A82BE /* Assets.xcassets */; };
+		22E90073284B2E38000A82BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22E90072284B2E38000A82BE /* Preview Assets.xcassets */; };
+		22E90075284B2E38000A82BE /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E90074284B2E38000A82BE /* Persistence.swift */; };
+		22E90078284B2E38000A82BE /* WinterTodo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 22E90076284B2E38000A82BE /* WinterTodo.xcdatamodeld */; };
+		22E90082284B2E38000A82BE /* WinterTodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E90081284B2E38000A82BE /* WinterTodoTests.swift */; };
+		22E9008C284B2E38000A82BE /* WinterTodoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E9008B284B2E38000A82BE /* WinterTodoUITests.swift */; };
+		22E9008E284B2E38000A82BE /* WinterTodoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E9008D284B2E38000A82BE /* WinterTodoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22E9007E284B2E38000A82BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22E90060284B2E37000A82BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22E90067284B2E37000A82BE;
+			remoteInfo = WinterTodo;
+		};
+		22E90088284B2E38000A82BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22E90060284B2E37000A82BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22E90067284B2E37000A82BE;
+			remoteInfo = WinterTodo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22E90068284B2E37000A82BE /* WinterTodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WinterTodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22E9006B284B2E37000A82BE /* WinterTodoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinterTodoApp.swift; sourceTree = "<group>"; };
+		22E9006D284B2E37000A82BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		22E9006F284B2E38000A82BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22E90072284B2E38000A82BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		22E90074284B2E38000A82BE /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		22E90077284B2E38000A82BE /* WinterTodo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WinterTodo.xcdatamodel; sourceTree = "<group>"; };
+		22E9007D284B2E38000A82BE /* WinterTodoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WinterTodoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22E90081284B2E38000A82BE /* WinterTodoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinterTodoTests.swift; sourceTree = "<group>"; };
+		22E90087284B2E38000A82BE /* WinterTodoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WinterTodoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22E9008B284B2E38000A82BE /* WinterTodoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinterTodoUITests.swift; sourceTree = "<group>"; };
+		22E9008D284B2E38000A82BE /* WinterTodoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinterTodoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22E90065284B2E37000A82BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E9007A284B2E38000A82BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E90084284B2E38000A82BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22E9005F284B2E37000A82BE = {
+			isa = PBXGroup;
+			children = (
+				22E9006A284B2E37000A82BE /* WinterTodo */,
+				22E90080284B2E38000A82BE /* WinterTodoTests */,
+				22E9008A284B2E38000A82BE /* WinterTodoUITests */,
+				22E90069284B2E37000A82BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22E90069284B2E37000A82BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22E90068284B2E37000A82BE /* WinterTodo.app */,
+				22E9007D284B2E38000A82BE /* WinterTodoTests.xctest */,
+				22E90087284B2E38000A82BE /* WinterTodoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22E9006A284B2E37000A82BE /* WinterTodo */ = {
+			isa = PBXGroup;
+			children = (
+				22E9006B284B2E37000A82BE /* WinterTodoApp.swift */,
+				22E9006D284B2E37000A82BE /* ContentView.swift */,
+				22E9006F284B2E38000A82BE /* Assets.xcassets */,
+				22E90074284B2E38000A82BE /* Persistence.swift */,
+				22E90076284B2E38000A82BE /* WinterTodo.xcdatamodeld */,
+				22E90071284B2E38000A82BE /* Preview Content */,
+			);
+			path = WinterTodo;
+			sourceTree = "<group>";
+		};
+		22E90071284B2E38000A82BE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				22E90072284B2E38000A82BE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		22E90080284B2E38000A82BE /* WinterTodoTests */ = {
+			isa = PBXGroup;
+			children = (
+				22E90081284B2E38000A82BE /* WinterTodoTests.swift */,
+			);
+			path = WinterTodoTests;
+			sourceTree = "<group>";
+		};
+		22E9008A284B2E38000A82BE /* WinterTodoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22E9008B284B2E38000A82BE /* WinterTodoUITests.swift */,
+				22E9008D284B2E38000A82BE /* WinterTodoUITestsLaunchTests.swift */,
+			);
+			path = WinterTodoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22E90067284B2E37000A82BE /* WinterTodo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22E90091284B2E38000A82BE /* Build configuration list for PBXNativeTarget "WinterTodo" */;
+			buildPhases = (
+				22E90064284B2E37000A82BE /* Sources */,
+				22E90065284B2E37000A82BE /* Frameworks */,
+				22E90066284B2E37000A82BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WinterTodo;
+			productName = WinterTodo;
+			productReference = 22E90068284B2E37000A82BE /* WinterTodo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22E9007C284B2E38000A82BE /* WinterTodoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22E90094284B2E38000A82BE /* Build configuration list for PBXNativeTarget "WinterTodoTests" */;
+			buildPhases = (
+				22E90079284B2E38000A82BE /* Sources */,
+				22E9007A284B2E38000A82BE /* Frameworks */,
+				22E9007B284B2E38000A82BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22E9007F284B2E38000A82BE /* PBXTargetDependency */,
+			);
+			name = WinterTodoTests;
+			productName = WinterTodoTests;
+			productReference = 22E9007D284B2E38000A82BE /* WinterTodoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22E90086284B2E38000A82BE /* WinterTodoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22E90097284B2E38000A82BE /* Build configuration list for PBXNativeTarget "WinterTodoUITests" */;
+			buildPhases = (
+				22E90083284B2E38000A82BE /* Sources */,
+				22E90084284B2E38000A82BE /* Frameworks */,
+				22E90085284B2E38000A82BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22E90089284B2E38000A82BE /* PBXTargetDependency */,
+			);
+			name = WinterTodoUITests;
+			productName = WinterTodoUITests;
+			productReference = 22E90087284B2E38000A82BE /* WinterTodoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22E90060284B2E37000A82BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					22E90067284B2E37000A82BE = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					22E9007C284B2E38000A82BE = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 22E90067284B2E37000A82BE;
+					};
+					22E90086284B2E38000A82BE = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 22E90067284B2E37000A82BE;
+					};
+				};
+			};
+			buildConfigurationList = 22E90063284B2E37000A82BE /* Build configuration list for PBXProject "WinterTodo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22E9005F284B2E37000A82BE;
+			productRefGroup = 22E90069284B2E37000A82BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22E90067284B2E37000A82BE /* WinterTodo */,
+				22E9007C284B2E38000A82BE /* WinterTodoTests */,
+				22E90086284B2E38000A82BE /* WinterTodoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22E90066284B2E37000A82BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E90073284B2E38000A82BE /* Preview Assets.xcassets in Resources */,
+				22E90070284B2E38000A82BE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E9007B284B2E38000A82BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E90085284B2E38000A82BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22E90064284B2E37000A82BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E90075284B2E38000A82BE /* Persistence.swift in Sources */,
+				22E9006E284B2E37000A82BE /* ContentView.swift in Sources */,
+				22E90078284B2E38000A82BE /* WinterTodo.xcdatamodeld in Sources */,
+				22E9006C284B2E37000A82BE /* WinterTodoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E90079284B2E38000A82BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E90082284B2E38000A82BE /* WinterTodoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E90083284B2E38000A82BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E9008C284B2E38000A82BE /* WinterTodoUITests.swift in Sources */,
+				22E9008E284B2E38000A82BE /* WinterTodoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22E9007F284B2E38000A82BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22E90067284B2E37000A82BE /* WinterTodo */;
+			targetProxy = 22E9007E284B2E38000A82BE /* PBXContainerItemProxy */;
+		};
+		22E90089284B2E38000A82BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22E90067284B2E37000A82BE /* WinterTodo */;
+			targetProxy = 22E90088284B2E38000A82BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		22E9008F284B2E38000A82BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22E90090284B2E38000A82BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22E90092284B2E38000A82BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WinterTodo/Preview Content\"";
+				DEVELOPMENT_TEAM = JASCMY8XL7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.guell.WinterTodo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22E90093284B2E38000A82BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WinterTodo/Preview Content\"";
+				DEVELOPMENT_TEAM = JASCMY8XL7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.guell.WinterTodo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		22E90095284B2E38000A82BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JASCMY8XL7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.guell.WinterTodoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WinterTodo.app/WinterTodo";
+			};
+			name = Debug;
+		};
+		22E90096284B2E38000A82BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JASCMY8XL7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.guell.WinterTodoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WinterTodo.app/WinterTodo";
+			};
+			name = Release;
+		};
+		22E90098284B2E38000A82BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JASCMY8XL7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.guell.WinterTodoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WinterTodo;
+			};
+			name = Debug;
+		};
+		22E90099284B2E38000A82BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JASCMY8XL7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.guell.WinterTodoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WinterTodo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22E90063284B2E37000A82BE /* Build configuration list for PBXProject "WinterTodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22E9008F284B2E38000A82BE /* Debug */,
+				22E90090284B2E38000A82BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22E90091284B2E38000A82BE /* Build configuration list for PBXNativeTarget "WinterTodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22E90092284B2E38000A82BE /* Debug */,
+				22E90093284B2E38000A82BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22E90094284B2E38000A82BE /* Build configuration list for PBXNativeTarget "WinterTodoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22E90095284B2E38000A82BE /* Debug */,
+				22E90096284B2E38000A82BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22E90097284B2E38000A82BE /* Build configuration list for PBXNativeTarget "WinterTodoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22E90098284B2E38000A82BE /* Debug */,
+				22E90099284B2E38000A82BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		22E90076284B2E38000A82BE /* WinterTodo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				22E90077284B2E38000A82BE /* WinterTodo.xcdatamodel */,
+			);
+			currentVersion = 22E90077284B2E38000A82BE /* WinterTodo.xcdatamodel */;
+			path = WinterTodo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 22E90060284B2E37000A82BE /* Project object */;
+}
