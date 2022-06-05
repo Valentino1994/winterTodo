@@ -15,31 +15,65 @@ struct ContentView: View {
         sortDescriptors: [NSSortDescriptor(keyPath: \Item.timestamp, ascending: true)],
         animation: .default)
     private var items: FetchedResults<Item>
-
+    
+    @State var isShowAdd: Bool = false
+    @State var isShowSheet: Bool = false
+    @State var isNow: String = ""
+    
+    private var days: [[String]] = [["SUN", "05"], ["MON", "06"], ["TUE", "07"], ["WED", "08"], ["THU", "09"], ["FRI", "10"], ["SAT", "11"]]
     var body: some View {
-        NavigationView {
-            List {
-                ForEach(items) { item in
-                    NavigationLink {
-                        Text("Item at \(item.timestamp!, formatter: itemFormatter)")
-                    } label: {
-                        Text(item.timestamp!, formatter: itemFormatter)
-                    }
+        VStack {
+            HStack {
+                VStack(alignment: .leading) {
+                    Text("TODAY")
+                    Text("6월 8일")
+                        .font(.title3)
                 }
-                .onDelete(perform: deleteItems)
-            }
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    EditButton()
+                Spacer()
+                Button(action: {
+                    isShowAdd.toggle()}
+                ) {
+                    Text("+ Add Task")
                 }
-                ToolbarItem {
-                    Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
-                    }
+                .sheet(isPresented: self.$isShowAdd) {
+                    AddTaskSheet()
                 }
             }
-            Text("Select an item")
+            .padding(.vertical, 5)
+            .padding(.horizontal, 25)
+            HStack(spacing: 0) {
+                ForEach(0..<7) {i in
+                    VStack(spacing: 0) {
+                        Text(days[i][0])
+                            .font(.caption)
+                        Text(days[i][1])
+                            .font(.title)
+                        Divider()
+                    }
+                }
+            }
+            .frame(width: .infinity)
+            .padding(.horizontal)
+            ScrollView() {
+                VStack {
+                    ForEach(0..<7) {i in
+                        TaskCardView()
+                        .onTapGesture {
+                            isShowSheet = true
+                            isNow = String(i)
+                        }
+                        .sheet(isPresented: self.$isShowSheet) {
+                            DetailTaskView(test: $isNow)
+                        }
+                    }
+                }
+            }
+            .padding()
+            .background(Color.winterblue)
+            .ignoresSafeArea()
         }
+
+        .background(Color.winterblue)
     }
 
     private func addItem() {
@@ -50,8 +84,6 @@ struct ContentView: View {
             do {
                 try viewContext.save()
             } catch {
-                // Replace this implementation with code to handle the error appropriately.
-                // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
                 let nsError = error as NSError
                 fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
             }
@@ -65,8 +97,6 @@ struct ContentView: View {
             do {
                 try viewContext.save()
             } catch {
-                // Replace this implementation with code to handle the error appropriately.
-                // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
                 let nsError = error as NSError
                 fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
             }
