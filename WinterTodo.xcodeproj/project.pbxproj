@@ -9,8 +9,9 @@
 /* Begin PBXBuildFile section */
 		2223E905284B64F700C0C026 /* TaskCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2223E904284B64F700C0C026 /* TaskCardView.swift */; };
 		2223E909284B780200C0C026 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2223E908284B780200C0C026 /* Color.swift */; };
-		2223E90B284B8AD400C0C026 /* DetailTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2223E90A284B8AD400C0C026 /* DetailTaskView.swift */; };
+		2223E90B284B8AD400C0C026 /* TaskDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2223E90A284B8AD400C0C026 /* TaskDetailView.swift */; };
 		2223E90D284B8CD300C0C026 /* AddTaskSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2223E90C284B8CD300C0C026 /* AddTaskSheet.swift */; };
+		2223E90F284E208800C0C026 /* DetailTaskCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2223E90E284E208800C0C026 /* DetailTaskCardView.swift */; };
 		22E9006C284B2E37000A82BE /* WinterTodoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E9006B284B2E37000A82BE /* WinterTodoApp.swift */; };
 		22E9006E284B2E37000A82BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E9006D284B2E37000A82BE /* ContentView.swift */; };
 		22E90070284B2E38000A82BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22E9006F284B2E38000A82BE /* Assets.xcassets */; };
@@ -42,8 +43,9 @@
 /* Begin PBXFileReference section */
 		2223E904284B64F700C0C026 /* TaskCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCardView.swift; sourceTree = "<group>"; };
 		2223E908284B780200C0C026 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
-		2223E90A284B8AD400C0C026 /* DetailTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTaskView.swift; sourceTree = "<group>"; };
+		2223E90A284B8AD400C0C026 /* TaskDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailView.swift; sourceTree = "<group>"; };
 		2223E90C284B8CD300C0C026 /* AddTaskSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskSheet.swift; sourceTree = "<group>"; };
+		2223E90E284E208800C0C026 /* DetailTaskCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTaskCardView.swift; sourceTree = "<group>"; };
 		22E90068284B2E37000A82BE /* WinterTodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WinterTodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22E9006B284B2E37000A82BE /* WinterTodoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinterTodoApp.swift; sourceTree = "<group>"; };
 		22E9006D284B2E37000A82BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -109,8 +111,9 @@
 				22E9006B284B2E37000A82BE /* WinterTodoApp.swift */,
 				22E9006D284B2E37000A82BE /* ContentView.swift */,
 				2223E904284B64F700C0C026 /* TaskCardView.swift */,
-				2223E90A284B8AD400C0C026 /* DetailTaskView.swift */,
+				2223E90A284B8AD400C0C026 /* TaskDetailView.swift */,
 				2223E90C284B8CD300C0C026 /* AddTaskSheet.swift */,
+				2223E90E284E208800C0C026 /* DetailTaskCardView.swift */,
 				22E9006F284B2E38000A82BE /* Assets.xcassets */,
 				22E90074284B2E38000A82BE /* Persistence.swift */,
 				22E90076284B2E38000A82BE /* WinterTodo.xcdatamodeld */,
@@ -281,8 +284,9 @@
 				22E9006E284B2E37000A82BE /* ContentView.swift in Sources */,
 				22E90078284B2E38000A82BE /* WinterTodo.xcdatamodeld in Sources */,
 				22E9006C284B2E37000A82BE /* WinterTodoApp.swift in Sources */,
+				2223E90F284E208800C0C026 /* DetailTaskCardView.swift in Sources */,
 				2223E909284B780200C0C026 /* Color.swift in Sources */,
-				2223E90B284B8AD400C0C026 /* DetailTaskView.swift in Sources */,
+				2223E90B284B8AD400C0C026 /* TaskDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

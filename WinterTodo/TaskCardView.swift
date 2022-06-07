@@ -26,6 +26,7 @@ struct TaskCardView: View {
                     VStack(alignment: .leading) {
                         Text("스프링 스터디 디자인")
                             .font(.title2)
+                            .fontWeight(.semibold)
                         Text("스프링 스터디에 쓰일 Todo를 디자인해야한다.")
                             .font(.subheadline)
                             .padding(0)

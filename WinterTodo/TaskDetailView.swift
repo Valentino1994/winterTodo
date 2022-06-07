@@ -7,9 +7,10 @@
 
 import SwiftUI
 
-struct DetailTaskView: View {
+struct TaskDetailView: View {
     @Binding var test: String
     var body: some View {
-        Text(test)
+        DetailTaskCardView()
+            .padding()
     }
 }

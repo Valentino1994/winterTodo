@@ -48,7 +48,9 @@ struct ContentView: View {
                             .font(.caption)
                         Text(days[i][1])
                             .font(.title)
-                        Divider()
+                        Rectangle()
+                            .frame(height: 1)
+                            .foregroundColor(.gray)
                     }
                 }
             }
@@ -63,7 +65,7 @@ struct ContentView: View {
                             isNow = String(i)
                         }
                         .sheet(isPresented: self.$isShowSheet) {
-                            DetailTaskView(test: $isNow)
+                            TaskDetailView(test: $isNow)
                         }
                     }
                 }
