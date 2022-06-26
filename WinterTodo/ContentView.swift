@@ -59,7 +59,7 @@ struct ContentView: View {
             ScrollView() {
                 VStack {
                     ForEach(0..<7) {i in
-                        TaskCardView()
+                        TaskCardView(item: $isNow)
                         .onTapGesture {
                             isShowSheet = true
                             isNow = String(i)

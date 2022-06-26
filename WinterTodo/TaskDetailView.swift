@@ -10,7 +10,10 @@ import SwiftUI
 struct TaskDetailView: View {
     @Binding var test: String
     var body: some View {
-        DetailTaskCardView()
-            .padding()
+        VStack {
+            Text(test)
+            DetailTaskCardView()
+                .padding()
+        }
     }
 }

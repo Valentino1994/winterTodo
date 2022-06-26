@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct TaskCardView: View {
+    @Binding var item: String
+    
     var body: some View {
         VStack {
             HStack {
@@ -42,8 +44,8 @@ struct TaskCardView: View {
     }
 }
 
-struct TaskCardView_Previews: PreviewProvider {
-    static var previews: some View {
-        TaskCardView()
-    }
-}
+//struct TaskCardView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        TaskCardView()
+//    }
+//}

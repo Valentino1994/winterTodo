@@ -9,6 +9,7 @@ import SwiftUI
 
 struct DetailTaskCardView: View {
     @State var isDone: Bool = false
+    
     var body: some View {
         ZStack {
             HStack {
